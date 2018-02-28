@@ -109,5 +109,10 @@
     @include tablet {
       width:150px;
     }
+
+    @include mobile {
+      background-image: none;
+      background-color: papayawhip;
+    }
   }
 }
