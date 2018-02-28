@@ -1,8 +1,12 @@
 @import './vendor/fontawesome/css/fontawesome-all.css';
-@import './base/_global';
-@import './base/_variables';
-@import './base/_mixins';
-@import './modules/_layout';
-@import './modules/_navbar';
+@import './base/global';
+@import './base/variables';
+@import './base/mixins';
+@import './modules/layout';
+@import './modules/navbar';
 @import './modules/mobile-navbar';
+@import './modules/hero';
+@import './modules/wrapper';
+@import './modules/button';
+@import './modules/social';
 
