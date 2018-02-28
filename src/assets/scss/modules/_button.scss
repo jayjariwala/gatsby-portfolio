@@ -24,6 +24,11 @@
 		background-color:MediumAquaMarine ;
 	}
 
+	&--white
+	{
+		background-color: white;
+	}
+
 	@include tablet {
 		font-size:0.8rem;
 	}
