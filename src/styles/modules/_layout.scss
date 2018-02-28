@@ -1,0 +1,14 @@
+.layout
+{
+  display: flex;
+
+  &__navigation
+  {
+    flex:2;
+  }
+
+  &__content
+  {
+    flex:9;
+  }
+}

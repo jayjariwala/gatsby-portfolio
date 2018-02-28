@@ -7,8 +7,14 @@
     "gatsby": "^1.9.215",
     "gatsby-link": "^1.6.37",
     "gatsby-plugin-react-helmet": "^2.0.5",
+    "react-fontawesome": "^1.6.1",
     "react-helmet": "^5.2.0"
   },
+  "browserslist": [
+    "> 1%",
+    "IE >= 9",
+    "last 2 versions"
+  ],
   "keywords": [
     "gatsby"
   ],
@@ -21,6 +27,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
+    "gatsby-plugin-postcss-sass": "^1.0.17",
     "prettier": "^1.10.2"
   }
 }
