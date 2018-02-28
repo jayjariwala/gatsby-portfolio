@@ -1,9 +1,10 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import Helmet from 'react-helmet'
+import React from 'react';
+import PropTypes from 'prop-types';
+import Helmet from 'react-helmet';
 
-import Navigation from '../components/Navigation'
-import '../styles/styles.scss'
+import Navigation from '../components/Navigation';
+import MobileNavigation from '../components/MobileNavigation';
+import '../assets/scss/styles.scss';
 
 const TemplateWrapper = ({ children }) => (
   <div>
@@ -17,6 +18,7 @@ const TemplateWrapper = ({ children }) => (
     <div className="layout">
       <div className="layout__navigation">
         <Navigation />
+        <MobileNavigation/>
       </div>
       <div className="layout__content">
         {children()}

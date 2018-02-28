@@ -1,33 +1,24 @@
-import React from 'react'
-import Link from 'gatsby-link'
+import React from 'react';
+import Link from 'gatsby-link';
+import path from 'path';
+import { Follow } from 'react-twitter-widgets'
+import brand from '../../assets/images/brand.png';
 
+console.log(brand);
 const Navigation = () => (
-  <nav className="navbar">
-    <div className="navbar__container">
-      <img className="js-brand navbar__logo" width="65px"/>
-      <div className="navbar__name-container">
-        <p>Jay</p>
-        <p>Jariwala</p>
-      </div>
-      <ul className="navbar__nav-items">
-        <li><a href="">Projects</a></li>
-        <li><a href="">Blog</a></li>
-        <li><a href="">About</a></li>
-        <p className="navbar__twitter-follow">
-          <a href="https://twitter.com/_deadlocked?ref_src=twsrc%5Etfw" className="twitter-follow-button">Follow @_deadlocked</a>
-          <script async src="https://platform.twitter.com/widgets.js" charSet="utf-8"></script>
-        </p>
-        <div className="quote-ticker">
-          <button className="button">I <i className="fas fa-heart"></i> Quotes</button>
-          <div className="quote-ticker__wrapper">
-            <i className="fas fa-quote-left"></i>
-            <span className="quote-ticker__quote">
-            Don't cry because it's over, smile because it happened.
-            </span>
-            <i className="fas fa-quote-right"></i>
-          </div>
-        </div>
-      </ul>
+  <nav className='navbar'>
+    <div className="navbar__content-wrapper">
+      <img src={brand} className="navbar__brandlogo" width='60px'/>
+      <p className="navbar__name">Jay</p>
+      <p className="navbar__surname">Jariwala</p>
+      <ul className="navbar__links">
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Tips & tricks</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Coding Logs</a></li>
+      </ul>  
+      <Follow username="_deadlocked"/>
     </div>
 	</nav>
 )
