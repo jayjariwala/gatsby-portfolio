@@ -8,15 +8,61 @@ console.log(brand);
 const Navigation = () => (
   <nav className='navbar'>
     <div className="navbar__content-wrapper">
+      <Link to="/"
+        activeStyle={{
+          textDecoration:'none',
+          color:'black'
+        }}
+      >
       <img src={brand} className="navbar__brandlogo" width='60px'/>
       <p className="navbar__name">Jay</p>
       <p className="navbar__surname">Jariwala</p>
+      </Link>
       <ul className="navbar__links">
-        <li><a href="#">Projects</a></li>
-        <li><a href="#">Blog</a></li>
-        <li><a href="#">Tips & tricks</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Coding Logs</a></li>
+        <li>
+          <Link
+              to="/projects/"
+              activeStyle={{
+                borderBottom:"2px solid purple",
+                color:'black'
+              }}
+            >
+            Projects
+          </Link>
+        </li>
+        <li>
+          <Link
+            to="/blog/"
+            activeStyle={{
+              borderBottom:"2px solid purple",
+              color:'black'
+            }}
+          >
+          Blog
+          </Link>
+        </li>
+        <li>
+          <Link
+              to="/about/"
+              activeStyle={{
+                borderBottom:"2px solid purple",
+                color:'black'
+              }}
+            >
+            About
+            </Link>
+        </li>
+        <li>
+          <Link
+              to="/logs/"
+              activeStyle={{
+                borderBottom:"2px solid purple",
+                color:'black'
+              }}
+            >
+            Logs
+          </Link>
+        </li>
       </ul>  
       <Follow username="_deadlocked"/>
     </div>

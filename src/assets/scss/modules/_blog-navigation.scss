@@ -1,0 +1,14 @@
+.blog-navigation
+{
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 900px;
+
+  &__heading
+  {
+    display: block;
+    width: auto;
+    padding-bottom: 8px;
+    border-bottom: 4px solid purple;
+  }
+}
