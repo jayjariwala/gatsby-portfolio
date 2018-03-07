@@ -6,8 +6,8 @@ export default ({ data }) => {
   const post = data.markdownRemark;
   console.log(data);
   return (
-    <div>
-      <h1>{post.frontmatter.title}</h1>
+    <div className="blog">
+      <h1 className="blog__title">{post.frontmatter.title}</h1>
       <div dangerouslySetInnerHTML={{ __html: post.html }} />
       <ReactDisqusThread
           shortname="jayjariwala"
