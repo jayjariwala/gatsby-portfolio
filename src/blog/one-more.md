@@ -1,5 +1,5 @@
 ---
-title: Pandas and Bananas
+title: one more
 date: "2017-08-21"
 thumbnail: http://cdn2.theweek.co.uk/sites/theweek/files/styles/16x8_465/public/2016/09/160905-panda1_0.jpg?itok=ze4NEKzb
 type: blog

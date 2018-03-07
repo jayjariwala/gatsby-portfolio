@@ -2,6 +2,7 @@
 title: "Sweet Pandas Eating Sweets"
 date: "2017-08-10"
 thumbnail: "xyz"
+type: blog
 ---
 
 Pandas are really sweet.

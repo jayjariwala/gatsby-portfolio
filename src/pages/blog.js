@@ -25,11 +25,10 @@ const BlogPage = ({data}) => {
           >
           <div className="column">
             <div className="card">
-            <img src={node.frontmatter.thumbnail} width="300px"/>
+            <img src={node.frontmatter.thumbnail}/>
               <div className="card__container">
                 <h4>{node.frontmatter.title}{" "}</h4> 
-                <span color="#BBB">— {node.frontmatter.date}</span>
-                <p>{node.excerpt}</p>
+                <span>{node.frontmatter.date}</span>
               </div>
             </div>
             </div>
@@ -45,21 +44,25 @@ const BlogPage = ({data}) => {
 
 export const query = graphql`
   query IndexQuery {
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
-      totalCount
-      edges {
-        node {
-          id
-          frontmatter {
-            title
-            date(formatString: "DD MMMM, YYYY")
-            thumbnail
+    allMarkdownRemark(
+      sort: { fields: [frontmatter___date], order: DESC }
+      filter : { frontmatter:{ type : { eq : "blog" }}}
+    ) {
+        totalCount
+        edges {
+          node {
+            id
+            frontmatter {
+              title
+              date(formatString: "DD MMMM, YYYY")
+              thumbnail
+              type
+            }
+            fields {
+              slug
+            }
+            excerpt
           }
-          fields {
-            slug
-          }
-          excerpt
-        }
       }
     }
   }
