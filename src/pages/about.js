@@ -11,7 +11,9 @@ const BlogPage = () => (
         { name: 'description', content: 'Sample' },
         { name: 'keywords', content: 'sample, something' },
       ]} />
-  Hi! This is a About page.
+    <div className="content">
+      <h1 className="content__heading">About</h1>
+    </div>
   </div>
 )
 

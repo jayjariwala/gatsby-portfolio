@@ -5,7 +5,7 @@ import Helmet from 'react-helmet';
 const BlogPage = ({data}) => {
   console.log(data);
   return (
-    <div className="blog-navigation">
+    <div className="content">
       <Helmet
       title="Jay Jariwala | Blog"
       meta={[
@@ -13,7 +13,7 @@ const BlogPage = ({data}) => {
         { name: 'keywords', content: 'sample, something' },
       ]}
       />
-      <h1 className="blog-navigation__heading">
+      <h1 className="content__heading">
         Blog <span>{data.allMarkdownRemark.totalCount} Posts</span>
       </h1>
       <p>Welcome to my blog! I love to write ✏️ and explain the topic in best possible way. checkout some of my recent Articles below. Feel free to leave comment/feedback or suggestion. Thank You 😇</p>
