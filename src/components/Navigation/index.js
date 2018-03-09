@@ -4,7 +4,6 @@ import path from 'path';
 import { Follow } from 'react-twitter-widgets'
 import brand from '../../assets/images/brand.png';
 
-console.log(brand);
 const Navigation = () => (
   <nav className='navbar'>
     <div className="navbar__content-wrapper">
@@ -43,7 +42,7 @@ const Navigation = () => (
         </li>
         <li>
           <Link
-              to="/about/"
+              to="/aboutme/"
               activeStyle={{
                 borderBottom:"2px solid purple",
                 color:'black'

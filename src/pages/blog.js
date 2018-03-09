@@ -3,7 +3,6 @@ import Link from 'gatsby-link';
 import Helmet from 'react-helmet';
 
 const BlogPage = ({data}) => {
-  console.log(data);
   return (
     <div className="content">
       <Helmet
@@ -16,7 +15,10 @@ const BlogPage = ({data}) => {
       <h1 className="content__heading">
         Blog <span>{data.allMarkdownRemark.totalCount} Posts</span>
       </h1>
-      <p>Welcome to my blog! I love to write ✏️ and explain the topic in best possible way. checkout some of my recent Articles below. Feel free to leave comment/feedback or suggestion. Thank You 😇</p>
+      <p>Welcome to my blog!
+        I love to write ✏️ and explain the topic in best possible way. 
+        checkout some of my recent Articles below. 
+        Feel free to leave comment/feedback or suggestion. Thank You 😇</p>
       <div className="columns">
       {data.allMarkdownRemark.edges.map(({ node }) => (
         <div key={node.id}>
@@ -37,7 +39,6 @@ const BlogPage = ({data}) => {
       ))}
       </div>
       <h4 className="blog-navigation__total-count"></h4>
-      
     </div>
   )
 };
