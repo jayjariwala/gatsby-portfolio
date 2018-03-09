@@ -50,24 +50,24 @@ const aboutmePage = ({data}) => {
             <h2 className="content__heading">
               About me
             </h2>
-              <img src={post.frontmatter.picture} width="250px;" className="hero__display-picture float-wrapper"/>
+              <div className="float-wrapper">
+                <img src={post.frontmatter.picture} width="250px;" className="hero__display-picture "/>
+              </div>
               <div dangerouslySetInnerHTML={{ __html: data.allMarkdownRemark.edges[0].node.html }} className="line-height" />
               <h2 className="content__heading">
               Social Media
               </h2>
-              <div className="tweet-wrapper">
                 <Timeline
                 dataSource={{
                   sourceType: 'profile',
                   screenName: '_deadlocked'
                 }}
                 options={{
-                  username: 'TwitterDev',
-                  height: '600'
+                  username: '_deadlocked',
+                  height: '400'
                 }}
                 onLoad={() => console.log('Timeline is loaded!')}
               />
-            </div>
           </div>
       </div>
   )
