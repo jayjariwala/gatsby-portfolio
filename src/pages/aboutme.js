@@ -1,6 +1,7 @@
 import React from 'react';
 import Link from 'gatsby-link';
 import Helmet from 'react-helmet';
+import { Timeline } from 'react-twitter-widgets'
 
 const aboutmePage = ({data}) => {
   const post =data.allMarkdownRemark.edges[0].node;
@@ -51,6 +52,20 @@ const aboutmePage = ({data}) => {
             </h2>
               <img src={post.frontmatter.picture} width="250px;" className="hero__display-picture float-wrapper"/>
               <div dangerouslySetInnerHTML={{ __html: data.allMarkdownRemark.edges[0].node.html }} className="line-height" />
+              <h2 className="content__heading">
+              Social Media
+              </h2>
+              <Timeline
+              dataSource={{
+                sourceType: 'profile',
+                screenName: '_deadlocked'
+              }}
+              options={{
+                username: 'TwitterDev',
+                height: '600'
+              }}
+              onLoad={() => console.log('Timeline is loaded!')}
+            />
           </div>
       </div>
   )
