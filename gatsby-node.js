@@ -18,7 +18,7 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
   return new Promise((resolve, reject) => {
     graphql(`
       {
-        allMarkdownRemark {
+        allMarkdownRemark ( filter : { frontmatter : { type: { eq: "blog" }}}) {
           edges {
             node {
               fields {
