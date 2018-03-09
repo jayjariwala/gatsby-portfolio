@@ -55,17 +55,19 @@ const aboutmePage = ({data}) => {
               <h2 className="content__heading">
               Social Media
               </h2>
-              <Timeline
-              dataSource={{
-                sourceType: 'profile',
-                screenName: '_deadlocked'
-              }}
-              options={{
-                username: 'TwitterDev',
-                height: '600'
-              }}
-              onLoad={() => console.log('Timeline is loaded!')}
-            />
+              <div className="tweet-wrapper">
+                <Timeline
+                dataSource={{
+                  sourceType: 'profile',
+                  screenName: '_deadlocked'
+                }}
+                options={{
+                  username: 'TwitterDev',
+                  height: '600'
+                }}
+                onLoad={() => console.log('Timeline is loaded!')}
+              />
+            </div>
           </div>
       </div>
   )
