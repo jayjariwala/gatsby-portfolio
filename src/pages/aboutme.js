@@ -50,7 +50,7 @@ const aboutmePage = ({data}) => {
               About me
             </h2>
               <img src={post.frontmatter.picture} width="250px;" className="hero__display-picture float-wrapper"/>
-              <div dangerouslySetInnerHTML={{ __html: data.allMarkdownRemark.edges[0].node.html }} />
+              <div dangerouslySetInnerHTML={{ __html: data.allMarkdownRemark.edges[0].node.html }} className="line-height" />
           </div>
       </div>
   )

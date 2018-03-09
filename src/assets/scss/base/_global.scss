@@ -154,6 +154,11 @@ html {
     margin: 0 2px;
     padding: .35em .625em .75em;
   }
+
+  em {
+    border-bottom: 2px solid wheat;
+  }
+
   legend {
     box-sizing: border-box;
     color: inherit;
