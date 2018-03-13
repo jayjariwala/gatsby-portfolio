@@ -39,4 +39,9 @@
   {
     width: 48%;
   }
+
+  @include mobile
+  {
+    width:100%;
+  }
 }

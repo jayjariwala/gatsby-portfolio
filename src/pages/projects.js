@@ -15,7 +15,6 @@ const ProjectPage = () => (
       <div className="content">
         <h1 className="content__heading">Projects</h1>
           <Projects/>
-          
       </div>
   </div>
 )

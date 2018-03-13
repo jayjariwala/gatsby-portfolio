@@ -35,11 +35,13 @@ var Projects = React.createClass({
                     <span className="tags__tag">html</span>
                     <span className="tags__tag">html</span>
                   </div>
-                </div>
-                <div className="project-wrapper">
+                  <div className="button-wrapper">
                     <button className="button button--black button--small">Source Code</button>
                     <button className="button button--green button--small">View</button>
+                  </div>
                 </div>
+                   
+                
             </div>
             </Masonry>
         );
