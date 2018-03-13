@@ -22,7 +22,7 @@ var Projects = React.createClass({
             <div className="card">
                 <img src="http://placehold.it/350x350" />
                 <div className="card__container">
-                  <h4>Clock</h4> 
+                  <h3 className="card__title">Clock</h3> 
                   <div className="tags">
                     <span className="tags__tag">html</span>
                     <span className="tags__tag">html</span>
@@ -36,104 +36,11 @@ var Projects = React.createClass({
                     <span className="tags__tag">html</span>
                   </div>
                 </div>
-              </div>
-
-               <div className="card">
-                <img src="http://placehold.it/350x350" />
-                <div className="card__container">
-                  <h4>Clock</h4> 
-                  <div className="tags">
-                    <span className="tags__tag">html</span>
-                    <span className="tags__tag">html</span>
-                    <span className="tags__tag">html</span>
-                    <span className="tags__tag">html</span>
-                    <span className="tags__tag">html</span>
-                    <span className="tags__tag">html</span>
-                    <span className="tags__tag">html</span>
-                    <span className="tags__tag">html</span>
-                    <span className="tags__tag">html</span>
-                    <span className="tags__tag">html</span>
-                  </div>
+                <div className="project-wrapper">
+                    <button className="button button--black button--small">Source Code</button>
+                    <button className="button button--green button--small">View</button>
                 </div>
-              </div>
-
-               <div className="card">
-                <img src="http://placehold.it/350x350" />
-                <div className="card__container">
-                  <h4>Clock</h4> 
-                  <div className="tags">
-                    <span className="tags__tag">html</span>
-                    <span className="tags__tag">html</span>
-                    <span className="tags__tag">html</span>
-                    <span className="tags__tag">html</span>
-                    <span className="tags__tag">html</span>
-                    <span className="tags__tag">html</span>
-                    <span className="tags__tag">html</span>
-                    <span className="tags__tag">html</span>
-                    <span className="tags__tag">html</span>
-                    <span className="tags__tag">html</span>
-                  </div>
-                </div>
-              </div>
-
-               <div className="card">
-                <img src="http://placehold.it/350x350" />
-                <div className="card__container">
-                  <h4>Clock</h4> 
-                  <div className="tags">
-                    <span className="tags__tag">html</span>
-                    <span className="tags__tag">html</span>
-                    <span className="tags__tag">html</span>
-                    <span className="tags__tag">html</span>
-                    <span className="tags__tag">html</span>
-                    <span className="tags__tag">html</span>
-                    <span className="tags__tag">html</span>
-                    <span className="tags__tag">html</span>
-                    <span className="tags__tag">html</span>
-                    <span className="tags__tag">html</span>
-                  </div>
-                </div>
-              </div>
-
-
-               <div className="card">
-                <img src="http://placehold.it/350x350" />
-                <div className="card__container">
-                  <h4>Clock</h4> 
-                  <div className="tags">
-                    <span className="tags__tag">html</span>
-                    <span className="tags__tag">html</span>
-                    <span className="tags__tag">html</span>
-                    <span className="tags__tag">html</span>
-                    <span className="tags__tag">html</span>
-                    <span className="tags__tag">html</span>
-                    <span className="tags__tag">html</span>
-                    <span className="tags__tag">html</span>
-                    <span className="tags__tag">html</span>
-                    <span className="tags__tag">html</span>
-                  </div>
-                </div>
-              </div>
-
-
-               <div className="card">
-                <img src="http://placehold.it/350x350" />
-                <div className="card__container">
-                  <h4>Clock</h4> 
-                  <div className="tags">
-                    <span className="tags__tag">html</span>
-                    <span className="tags__tag">html</span>
-                    <span className="tags__tag">html</span>
-                    <span className="tags__tag">html</span>
-                    <span className="tags__tag">html</span>
-                    <span className="tags__tag">html</span>
-                    <span className="tags__tag">html</span>
-                    <span className="tags__tag">html</span>
-                    <span className="tags__tag">html</span>
-                    <span className="tags__tag">html</span>
-                  </div>
-                </div>
-              </div>
+            </div>
             </Masonry>
         );
     }
