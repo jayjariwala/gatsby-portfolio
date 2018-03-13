@@ -15,18 +15,20 @@
   {
     padding: 5px 16px;
     text-align: center;
+  }
 
-    h4 {
-      text-transform: uppercase;
-      color: black; 
-      margin:5px;
-    }
+  &__title
+  {
+    text-transform: uppercase;
+    color: black; 
+    margin:5px;
+  }
 
-    span {
-      font-size: 0.8rem;
-      font-style: italic;
-      color: grey;
-    }
+  &__subtitle
+  {
+    font-size: 0.8rem;
+    font-style: italic;
+    color: grey;
   }
 
   &:hover {

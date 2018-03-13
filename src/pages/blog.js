@@ -18,7 +18,8 @@ const BlogPage = ({data}) => {
       <p>Welcome to my blog!
         I love to write ✏️ and explain the topic in best possible way. 
         checkout some of my recent Articles below. 
-        Feel free to leave comment/feedback or suggestion. Thank You 😇</p>
+        Feel free to leave comment/feedback or suggestion. Thank You 😇
+      </p>
       <div className="columns">
       {data.allMarkdownRemark.edges.map(({ node }) => (
         <div key={node.id}>
@@ -29,8 +30,8 @@ const BlogPage = ({data}) => {
             <div className="card">
             <img src={node.frontmatter.thumbnail}/>
               <div className="card__container">
-                <h4>{node.frontmatter.title}{" "}</h4> 
-                <span>{node.frontmatter.date}</span>
+                <h4 className="card__title">{node.frontmatter.title}{" "}</h4> 
+                <span className="card__subtitle">{node.frontmatter.date}</span>
               </div>
             </div>
             </div>

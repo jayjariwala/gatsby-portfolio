@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'gatsby-link';
 import Helmet from 'react-helmet';
-
+import Projects from '../components/Projects';
 
 const ProjectPage = () => (
   <div>
@@ -12,7 +12,11 @@ const ProjectPage = () => (
         { name: 'keywords', content: 'sample, something' },
       ]}
       />
-  Hi! This is a Project page.
+      <div className="content">
+        <h1 className="content__heading">Projects</h1>
+          <Projects/>
+          
+      </div>
   </div>
 )
 
