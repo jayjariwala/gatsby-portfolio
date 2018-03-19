@@ -24,6 +24,7 @@ class MobileNavigation extends React.Component
             textDecoration:'none',
             color:'black'
           }}
+          onClick={this.toggleNavbar}
         >
           <img src={brand} className="navbar__logo"/>
         </Link>
@@ -38,6 +39,7 @@ class MobileNavigation extends React.Component
                   borderBottom:"2px solid purple",
                   color:'black'
                 }}
+                onClick={this.toggleNavbar}
               >
               Projects
             </Link>
@@ -49,6 +51,7 @@ class MobileNavigation extends React.Component
                 borderBottom:"2px solid purple",
                 color:'black'
               }}
+              onClick={this.toggleNavbar}
             >
             Blog
             </Link>
@@ -60,6 +63,7 @@ class MobileNavigation extends React.Component
                   borderBottom:"2px solid purple",
                   color:'black'
                 }}
+                onClick={this.toggleNavbar}
               >
               About
               </Link>
@@ -71,6 +75,7 @@ class MobileNavigation extends React.Component
                   borderBottom:"2px solid purple",
                   color:'black'
                 }}
+                onClick={this.toggleNavbar}
               >
               Logs
             </Link>
