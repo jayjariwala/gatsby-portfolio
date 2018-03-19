@@ -19,14 +19,62 @@ class MobileNavigation extends React.Component
     return (
     <nav className="mobile-navbar">
       <div className="mobile-navbar__header">
-        <img src={brand} className="navbar__logo"/>
+        <Link to="/"
+          activeStyle={{
+            textDecoration:'none',
+            color:'black'
+          }}
+        >
+          <img src={brand} className="navbar__logo"/>
+        </Link>
         <i className="fas fa-bars" onClick={this.toggleNavbar} ></i>
       </div>
       <div className={mobileNav}>
         <ul>
-          <li><a href="#">Projects</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">About</a></li>
+          <li>
+            <Link
+                to="/projects/"
+                activeStyle={{
+                  borderBottom:"2px solid purple",
+                  color:'black'
+                }}
+              >
+              Projects
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="/blog/"
+              activeStyle={{
+                borderBottom:"2px solid purple",
+                color:'black'
+              }}
+            >
+            Blog
+            </Link>
+          </li>
+          <li>
+            <Link
+                to="/aboutme/"
+                activeStyle={{
+                  borderBottom:"2px solid purple",
+                  color:'black'
+                }}
+              >
+              About
+              </Link>
+          </li>
+          <li>
+            <Link
+                to="/logs/"
+                activeStyle={{
+                  borderBottom:"2px solid purple",
+                  color:'black'
+                }}
+              >
+              Logs
+            </Link>
+          </li>
         </ul>
       </div>
 	  </nav>

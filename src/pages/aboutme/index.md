@@ -8,6 +8,7 @@ server_hosting: nginx, LetsEncrypt, Ubuntu, Heroku, Openshift, Firewall
 design: Sketch 4.0
 relevent: flexbox, ES6+, CSS Grid, GraphQL 
 ---
+
 **_Introduction.._**
 
 Hello! My name is Jay Jariwala, I am a Full-stack web developer based in New Jersey, USA. I love to design and develop web applications. I am currently available for the full-time positions, so If you are a recruiter and looking to hire a developer with a passion for learning new technology, feel free to email me at jay.jariwala@hotmail.com. 

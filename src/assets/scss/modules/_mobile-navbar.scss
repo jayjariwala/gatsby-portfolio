@@ -9,24 +9,24 @@ This code needs improvement
 	
 	&__header
 	{
-    padding: 7px;
-    display:flex;
-		align-items:center;
-    justify-content:space-between;
-      
+    display: flex;
+    justify-content: space-between;
+		padding: 5px;
+		
 		@include mobile {   
       .navbar__logo {
-        width: 35px;
-        margin:0;
+        width: 45px;
+				margin:0;
+				display: block;
       }
       
 			.fa-bars {
 				cursor: pointer;
-				font-size: 1.5rem;
-				padding-top: 2px;
-				padding-bottom: 2px;
-				padding-left: 4px;
-				padding-right: 4px;
+				box-sizing: border-box;
+				display: flex;
+				font-size: 1.9rem;
+				padding: 2px 4px;
+				align-items: center;
 				background-color: aquamarine;
 				color: black;
 				border:3px solid black;

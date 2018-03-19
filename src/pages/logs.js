@@ -15,7 +15,7 @@ const logsPage = ({data}) => {
       />
       <div className="content">
         <h1 className="content__heading">Daily Logs</h1>
-        <div dangerouslySetInnerHTML={{ __html: post.html }} />
+        <div dangerouslySetInnerHTML={{ __html: post.html }} className="line-height" />
       </div>
     </div>
     )
