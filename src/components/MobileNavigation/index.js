@@ -24,7 +24,6 @@ class MobileNavigation extends React.Component
             textDecoration:'none',
             color:'black'
           }}
-          onClick={this.toggleNavbar}
         >
           <img src={brand} className="navbar__logo"/>
         </Link>
