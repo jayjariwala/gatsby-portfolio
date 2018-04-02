@@ -14,18 +14,17 @@
 	border: 0;
 	cursor: pointer;
 	font-size: 0.8rem;
+	position: relative;
+	transition: position 2s ease-in;
 
 	&--round
 	{
-		position: relative;
 		border-radius:40px;
-		transition: position 2s ease-in;
 	}
 
 	&--round:hover
 	{
-	top: -3px;
-	box-shadow:0px 10px 20px 0px rgba(0,0,0,0.4);
+	
 	}
 
 	&--green
@@ -53,4 +52,10 @@
 	{
 		font-size: .2rem;
 	}
+}
+
+.button:hover
+{
+	top: -3px;
+	box-shadow:0px 10px 20px 0px rgba(0,0,0,0.4);
 }

@@ -15,7 +15,11 @@
   -moz-box-shadow: 9px 0px 3px -9px rgba(0,0,0,0.46);
   box-shadow: 9px 0px 3px -9px rgba(0,0,0,0.46);
   border-top:5px solid $green;
-  background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  // background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background-color: #ffffff;
+  background-color: #ffffff;
+background-image: url("https://www.transparenttextures.com/patterns/subtle-grey.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
   color: white;
 
   &__brandlogo
