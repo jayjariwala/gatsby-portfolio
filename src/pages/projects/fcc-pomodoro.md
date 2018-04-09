@@ -1,8 +1,8 @@
 ---
 title: Pomodoro clock
-thumbnail: https://images.csmonitor.com/csm/2017/03/1030444_1_0305-panda_standard.jpg?alias=standard_900x600nc
-technology: html,css,vanilla javascript
+thumbnail: https://s17.postimg.org/gjd5kg2b3/Screen_Shot_2018-04-05_at_6.25.24_PM.png
+technology: Html, CSS3, Vanilla Javascript
 type: project
-github: https://github.com/jayjariwala/javascript30/
-website: https://google.com
+github: https://github.com/jayjariwala/fcc-frontend/tree/master/pomodoro
+website: http://www.jayjariwala.com/fcc-frontend/pomodoro/
 ---
