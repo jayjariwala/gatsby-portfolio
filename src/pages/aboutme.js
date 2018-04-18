@@ -54,11 +54,7 @@ const aboutmePage = ({data}) => {
                 <img src={post.frontmatter.picture} width="250px;" className="hero__display-picture "/>
               </div>
               <div dangerouslySetInnerHTML={{ __html: data.allMarkdownRemark.edges[0].node.html }} className="line-height" />
-              <h2 className="content__heading">
-                TimeLine
-              </h2>
-              <iframe src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=16Q--yG35HjysUkp0NCT1zE4PhrzA6I8XNy0eF2_7ahI&font=Dancing-Ledger&lang=en&initial_zoom=2&height=650' width='100%' height='650' webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'>
-              </iframe>
+              
               <h2 className="content__heading">
               Social Media
               </h2>

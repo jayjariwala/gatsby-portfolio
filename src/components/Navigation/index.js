@@ -53,13 +53,13 @@ const Navigation = () => (
         </li>
         <li>
           <Link
-              to="/logs/"
+              to="/work/"
               activeStyle={{
                 borderBottom:"2px solid purple",
                 color:'black'
               }}
             >
-            Logs
+            Work
           </Link>
         </li>
       </ul>  

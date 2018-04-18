@@ -69,14 +69,14 @@ class MobileNavigation extends React.Component
           </li>
           <li>
             <Link
-                to="/logs/"
+                to="/work/"
                 activeStyle={{
                   borderBottom:"2px solid purple",
                   color:'black'
                 }}
                 onClick={this.toggleNavbar}
               >
-              Logs
+              Work
             </Link>
           </li>
         </ul>
