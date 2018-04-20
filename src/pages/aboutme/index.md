@@ -1,5 +1,5 @@
 ---
-picture: https://s17.postimg.org/5tzgrx3a7/Slice.png
+picture: https://image.ibb.co/km5OSS/Slice.png
 type: about
 core_technologies: HTML5, CSS3, Vanilla Javascript, Node.js, Java, Shell Scripting, RestFul API
 libraries: AngularJS, ReactJS, jQuery , Express, Gulp, Grunt, Webpack, Bootstrap, Bulma.io, deepstram.io, axios, mobile jQuery
