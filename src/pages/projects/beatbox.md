@@ -1,6 +1,6 @@
 ---
 title: Beat Box
-thumbnail: https://s9.postimg.org/6zeg8s5jj/Screen_Shot_2018-04-05_at_11.03.36_PM.png
+thumbnail: https://image.ibb.co/cOAWWn/Screen_Shot_2018_04_20_at_2_04_06_PM.png
 technology: Html, CSS3, Vanilla Javascript 
 type: project
 github: https://github.com/jayjariwala/JSDrumKit
