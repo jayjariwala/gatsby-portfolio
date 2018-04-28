@@ -20,11 +20,14 @@ const workPage = ({data}) => {
               Work
             </h1>
             <div className="work">
-              <img src={sdiLogo} width="60px;" className="work__logo"/>
-              <p>
-              <b><em>SDI Global Services, LLC.</em></b><span className="float-right">July 2017 – Present</span>
-              <p><i>103 Carnegie Center, Princeton, NJ 08540</i></p>
-              </p>
+              <div className="work__header">
+                <img src={sdiLogo} width="60px;" className="work__logo"/>
+                <p className="work__company">
+                <b><em>SDI Global Services, LLC.</em></b>
+                <p><i>103 Carnegie Center, Princeton, NJ 08540</i></p>
+                </p>
+                <span className="work__duration">July 2017 – Present</span>
+              </div>
               <b><em>Position:</em></b> Software Engineer
               <ul>
                 <li>Implemented WebRTC screen sharing feature in a web-based mobile application to enable screen-sharing between Instructor laptop and Student Tablets.</li>
@@ -34,11 +37,14 @@ const workPage = ({data}) => {
               </ul>
             </div>
             <div className="work">
-              <img src={tbsmoLogo} width="80px;" className="work__logo"/>
-              <p>
-              <b><em>Today’s Business</em></b><span className="float-right">Aug 2016 – Dec 2016</span>
-              <p><i>39 US-46 Unit 801, Pine Brook, NJ 07058, # (973)-575-1600</i></p>
-              </p>
+              <div className="work__header">
+                <img src={tbsmoLogo} width="80px;" className="work__logo"/>
+                <p className="work__company">
+                  <b><em>Today’s Business</em></b>
+                  <p><i>39 US-46 Unit 801, Pine Brook, NJ 07058, # (973)-575-1600</i></p>
+                </p>
+                <span className="work__duration">Aug 2016 – Dec 2016</span>
+              </div>
               <b><em>Position:</em></b> Digital Development Intern
               <ul>
                 <li>Converted Web Mockup design (PSD) into fully functional, responsive and cross-browser compatible website using HTML5 Semantic markup, CSS3 and Vanilla JavaScript.</li>

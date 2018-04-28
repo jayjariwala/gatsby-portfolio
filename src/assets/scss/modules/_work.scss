@@ -2,9 +2,22 @@
 {
   &__logo
   {
-    border: 2px dotted wheat;
-    padding: 5px;
     display: block;
-    margin: 0 auto;
+    width:75px;
+    height: 75px;
   }
+
+  &__header
+  {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__company
+  {
+    padding-left: 20px;
+  }
+
+
 }
