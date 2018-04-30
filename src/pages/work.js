@@ -24,7 +24,7 @@ const workPage = ({data}) => {
                 <div className="work__information">
                   <img src={sdiLogo} width="60px;" className="work__logo"/>
                   <p className="work__company">
-                  <b><em>SDI Global Services, LLC.</em></b>
+                  <p><b><em>SDI Global Services, LLC.</em><b></p>
                   <p><i>103 Carnegie Center, Princeton, NJ 08540</i></p>
                   </p>
                 </div>
@@ -43,7 +43,7 @@ const workPage = ({data}) => {
                 <div className="work__information">
                   <img src={tbsmoLogo} width="80px;" className="work__logo"/>
                   <p className="work__company">
-                    <b><em>Today’s Business</em></b>
+                    <p><b><em>Today’s Business</em></b></p>
                     <p><i>39 US-46 Unit 801, Pine Brook, NJ 07058, # (973)-575-1600</i></p>
                   </p>
                 </div>
@@ -65,7 +65,7 @@ const workPage = ({data}) => {
             <h2 className="content__heading">
               Online Courses
             </h2>        
-            
+
           </div>
       </div>)
 
