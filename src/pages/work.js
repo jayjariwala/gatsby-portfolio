@@ -65,6 +65,7 @@ const workPage = ({data}) => {
             <h2 className="content__heading">
               Online Courses
             </h2>        
+            
           </div>
       </div>)
 
