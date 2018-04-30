@@ -56,15 +56,15 @@ const workPage = ({data}) => {
                 <li>Assisted team members with Project Management, SEO Guidelines and website deployment in production.   </li>
               </ul>
             </div>
-            <h2 className="content__heading">
+            {/* <h2 className="content__heading">
               Education
             </h2>   
             <h2 className="content__heading">
               Certification
             </h2>
             <h2 className="content__heading">
-              Online Courses
-            </h2>        
+              Courses
+            </h2>         */}
 
           </div>
       </div>)
