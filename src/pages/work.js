@@ -21,11 +21,13 @@ const workPage = ({data}) => {
             </h1>
             <div className="work">
               <div className="work__header">
-                <img src={sdiLogo} width="60px;" className="work__logo"/>
-                <p className="work__company">
-                <b><em>SDI Global Services, LLC.</em></b>
-                <p><i>103 Carnegie Center, Princeton, NJ 08540</i></p>
-                </p>
+                <div className="work__information">
+                  <img src={sdiLogo} width="60px;" className="work__logo"/>
+                  <p className="work__company">
+                  <b><em>SDI Global Services, LLC.</em></b>
+                  <p><i>103 Carnegie Center, Princeton, NJ 08540</i></p>
+                  </p>
+                </div>
                 <span className="work__duration">July 2017 – Present</span>
               </div>
               <b><em>Position:</em></b> Software Engineer
@@ -38,11 +40,13 @@ const workPage = ({data}) => {
             </div>
             <div className="work">
               <div className="work__header">
-                <img src={tbsmoLogo} width="80px;" className="work__logo"/>
-                <p className="work__company">
-                  <b><em>Today’s Business</em></b>
-                  <p><i>39 US-46 Unit 801, Pine Brook, NJ 07058, # (973)-575-1600</i></p>
-                </p>
+                <div className="work__information">
+                  <img src={tbsmoLogo} width="80px;" className="work__logo"/>
+                  <p className="work__company">
+                    <b><em>Today’s Business</em></b>
+                    <p><i>39 US-46 Unit 801, Pine Brook, NJ 07058, # (973)-575-1600</i></p>
+                  </p>
+                </div>
                 <span className="work__duration">Aug 2016 – Dec 2016</span>
               </div>
               <b><em>Position:</em></b> Digital Development Intern

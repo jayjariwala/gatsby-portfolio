@@ -1,23 +1,20 @@
 .work
 {
-  &__logo
-  {
-    display: block;
-    width:75px;
-    height: 75px;
-  }
+ &__header
+ {
+  display: flex;
+  justify-content: space-between;
+ }
 
-  &__header
-  {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
+ &__company
+ {
+   padding-left: 10px;
+ }
 
-  &__company
-  {
-    padding-left: 20px;
-  }
-
+ &__information
+ {
+   display: flex;
+   align-items: center;
+ }
 
 }
