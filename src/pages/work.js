@@ -24,7 +24,7 @@ const workPage = ({data}) => {
                 <div className="work__information">
                   <img src={sdiLogo} width="60px;" className="work__logo"/>
                   <p className="work__company">
-                  <p><b><em>SDI Global Services, LLC.</em><b></p>
+                  <p><b><em>SDI Global Services, LLC.</em></b></p>
                   <p><i>103 Carnegie Center, Princeton, NJ 08540</i></p>
                   </p>
                 </div>
