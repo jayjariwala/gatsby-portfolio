@@ -10,8 +10,10 @@
     "gatsby-remark-prismjs": "^1.2.17",
     "gatsby-source-filesystem": "^1.5.25",
     "gatsby-transformer-remark": "^1.7.34",
+    "google-map-react": "^1.0.0",
     "react-disqus-thread": "^0.4.0",
     "react-fontawesome": "^1.6.1",
+    "react-google-maps": "^9.4.5",
     "react-helmet": "^5.2.0",
     "react-masonry-component": "^6.0.2",
     "react-twitter-widgets": "^1.7.1"

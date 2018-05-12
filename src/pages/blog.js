@@ -13,7 +13,7 @@ const BlogPage = ({data}) => {
       ]}
       />
       <h1 className="content__heading">
-        Blog <span>{data.allMarkdownRemark.totalCount} Posts</span>
+        Blog <span className="content__post card__subtitle">({data.allMarkdownRemark.totalCount} Posts)</span>
       </h1>
       <p>Welcome to my blog!
         I love to write ✏️ and explain the topic in best possible way. 
