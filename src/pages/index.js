@@ -10,7 +10,7 @@ const IndexPage = () => (
       <div className="hero__introduction ">
         <h1 className="hero__intro-heading" > Hi, I'm Jay Jariwala</h1>
 				<p className="hero__intro-subheading">Software Engineer</p>
-				<p className="hero__intro-paragraph">I build Full-stack Web applications with emphasis of writing clean and maintainable code. My hobbies are reading 📖 , Photography 📸 and 🤓 coding. I am currently open for Full-time positions.</p>
+				<p className="hero__intro-paragraph">I build Full-stack Web applications with emphasis of writing clean and maintainable code. I have good command over JavaScript language and It's libraries. When not coding I enjoy outdoors 🚞 and 📸 photography. I am currently open for Full-time positions.</p>
 				<a href="mailto:jay.jariwala@hotmail.com?Subject=Hello" target="_top"><button className="button button--white button--round">Get in Touch</button></a>
 				<a href={resume} target="__blank"><button className="button button--green button--round"><i className="fas fa-cloud-download-alt"></i> Resume</button></a>
 				<div className="social">
