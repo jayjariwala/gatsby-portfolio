@@ -5,6 +5,7 @@ require("prismjs/themes/prism-solarizedlight.css");
 import Navigation from '../components/Navigation';
 import MobileNavigation from '../components/MobileNavigation';
 import '../assets/scss/styles.scss';
+import 'animate.css';
 
 const TemplateWrapper = ({ children }) => (
   <div>
