@@ -15,10 +15,7 @@ const BlogPage = ({data}) => {
       <h1 className="content__heading">
         Blog <span className="content__post card__subtitle">({data.allMarkdownRemark.totalCount} Posts)</span>
       </h1>
-      <p>Welcome to my blog!
-        I love to write ✏️ and explain the topic in best possible way. 
-        checkout some of my recent Articles below. 
-        Feel free to leave comment/feedback or suggestion. Thank You 😇
+      <p> I would love to write something in here when I have enough motivation. Please check back 🔜
       </p>
       <div className="columns">
       {data.allMarkdownRemark.edges.map(({ node }) => (

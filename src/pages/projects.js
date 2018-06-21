@@ -14,6 +14,7 @@ const ProjectPage = ({data}) => (
       />
       <div className="content">
         <h1 className="content__heading">Projects</h1>
+        <p> 👇 Checkout some of my projects built from scratch ✅Designed ✅Coded ✅Refectored</p>
           <Projects projects={data}/>
       </div>
   </div>
