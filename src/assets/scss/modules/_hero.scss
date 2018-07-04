@@ -60,7 +60,11 @@
     color:white;
     margin:0;
     font-size: 2rem;
-		text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
+    animation-name: main-heading;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in;
   }
 
   &__intro-subheading
@@ -70,19 +74,26 @@
 		margin-top:10px;
 		font-weight:400;
 		font-size:1.0rem;
-		text-transform: uppercase;
+    text-transform: uppercase;
+    animation-name: sub-heading;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in;
   }
 
   &__intro-subheading::after
 	{
 		content:"";
 		display:block;
-		width:100px;
+		width:1px;
 		height:3px;
 		margin-top:20px;
 		background-color: aquamarine;
-		border-radius:100px;
-
+    border-radius:100px;
+    animation-name: subheading-line;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-out;
 		@include tablet {
 			margin-left: auto;
 			margin-right:auto;
@@ -100,6 +111,10 @@
     font-size: 1.3rem;
     max-width: 600px;
     font-family: $content-font-family;
+    animation-name: intro-paragraph;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in;
 
     @include tablet {
       font-weight: 400;
@@ -116,8 +131,12 @@
   {
     border-radius: 50%;
     width: 250px;
+    opacity: 0;
     box-shadow: 0px 30px 60px 0px  rgba(0, 0, 0, 0.4);
-
+    animation-name: display-picture;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in;
     @include tablet {
       width:150px;
     }
@@ -126,5 +145,45 @@
   @include mobile {
     background-image: none;
     height: auto;
+  }
+}
+
+@keyframes subheading-line {
+  from {
+    width:1px;
+  } to {
+    width:100px;
+  }
+}
+
+@keyframes display-picture {
+  from {
+    opacity: 0;
+  } to {
+    opacity: 1;
+  }
+}
+
+@keyframes main-heading {
+  from {
+    opacity: 0;
+  } to {
+    opacity: 1;
+  }
+}
+
+@keyframes sub-heading {
+  from {
+    opacity: 0;
+  } to {
+    opacity: 1;
+  }
+}
+
+@keyframes intro-paragraph {
+  from {
+    opacity: 0;
+  } to {
+    opacity: 1;
   }
 }
