@@ -16,6 +16,12 @@
 	font-size: 0.8rem;
 	position: relative;
 	transition: position 2s ease-in;
+	opacity: 0;
+	animation-name: animate-buttons;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 1s;
+	animation-timing-function: ease-out;
 
 	&--round
 	{
@@ -53,4 +59,12 @@
 {
 	top: -3px;
 	box-shadow:0px 10px 20px 0px rgba(0,0,0,0.4);
+}
+
+@keyframes animate-buttons {
+  from {
+    opacity: 0;
+  } to {
+    opacity: 1;
+  }
 }

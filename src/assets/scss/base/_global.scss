@@ -3,7 +3,7 @@ html {
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
   }
-  
+
   @font-face {
     font-family: 'archia';
     src:  url('../fonts/archia-regular-webfont.woff2') format('woff2'),
@@ -644,4 +644,7 @@ html {
   {
     float: right;
   }
-  
+  .inline-link {
+    color:black;
+    background-color: yellowgreen;
+  }
