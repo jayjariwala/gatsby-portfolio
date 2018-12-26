@@ -41,11 +41,11 @@ background-image: url("https://www.transparenttextures.com/patterns/subtle-grey.
     padding:40px 0;
     font-weight: 700;
     font-size: 0.9rem;
-    
-    
+
+
     li {
       padding: 5px;
-      
+
       a{
         border-bottom: 2px solid $green;
         text-decoration: none;
@@ -56,15 +56,15 @@ background-image: url("https://www.transparenttextures.com/patterns/subtle-grey.
       }
 
       a:hover {
-        border-bottom: 2px solid purple;     
-        color:black;   
+        border-bottom: 2px solid purple;
+        color:black;
       }
 
       a:hover::after {
         position: absolute;
-        content:"👉";
+        content:"➡";
         font-size: 24px;
-        color:green;
+        color:black;
         left:-38px;
         top:0;
         display: block;
