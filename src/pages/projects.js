@@ -64,8 +64,8 @@ class ProjectPage extends React.Component {
        />
        <div className="content">
          <h1 className="content__heading">Projects</h1>
-          <span>Hello</span>
-          <select name="technologies" onChange={this.changeOption}>
+         <em>Technology:</em>
+          <select name="technologies" onChange={this.changeOption} className="content__dropdown">
           <option key='all' value='all'>All</option>
             {this.state.options.map((each) => {
               return <option key={each} value={each}>{each}</option>
