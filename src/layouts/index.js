@@ -1,11 +1,11 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import Helmet from 'react-helmet';
-require("prismjs/themes/prism-solarizedlight.css");
-import Navigation from '../components/Navigation';
-import MobileNavigation from '../components/MobileNavigation';
-import '../assets/scss/styles.scss';
-import 'animate.css';
+import React from 'react'
+import PropTypes from 'prop-types'
+import Helmet from 'react-helmet'
+require('prismjs/themes/prism-solarizedlight.css')
+import Navigation from '../components/Navigation'
+import MobileNavigation from '../components/MobileNavigation'
+import '../assets/scss/styles.scss'
+import 'animate.css'
 
 const TemplateWrapper = ({ children }) => (
   <div>
@@ -19,11 +19,9 @@ const TemplateWrapper = ({ children }) => (
     <div className="layout">
       <div className="layout__navigation">
         <Navigation />
-        <MobileNavigation/>
+        <MobileNavigation />
       </div>
-      <div className="layout__content">
-        {children()}
-      </div>
+      <div className="layout__content">{children()}</div>
     </div>
   </div>
 )
