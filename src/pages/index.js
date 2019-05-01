@@ -24,14 +24,22 @@ const IndexPage = () => (
           It's libraries. When not coding, I enjoy outdoors and photography.{' '}
           <br />
           <br /> Check out some of my{' '}
-          <a href="#" className="inline-link">
+          <Link
+            to="/projects"
+            className="inline-link"
+          >
             <em>Projects</em>
-          </a>{' '}
+          </Link>
+
+          {' '}
           and{' '}
-          <a href="#" className="inline-link">
+          <Link
+            to="#"
+            className="inline-link"
+          >
             {' '}
             <em>Photos</em>{' '}
-          </a>
+          </Link>
         </p>
         <a href="mailto:jay.jariwala@hotmail.com?Subject=Hello" target="_top">
           <button className="button button--white button--round">

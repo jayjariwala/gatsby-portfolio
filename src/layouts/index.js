@@ -6,14 +6,18 @@ import Navigation from '../components/Navigation'
 import MobileNavigation from '../components/MobileNavigation'
 import '../assets/scss/styles.scss'
 import 'animate.css'
+import favicon from '../assets/images/brand.png'
 
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet
-      title="Jay Jariwala"
+      title="Jay Jariwala | Web Developer - Portfolio"
       meta={[
-        { name: 'description', content: 'Sample' },
-        { name: 'keywords', content: 'sample, something' },
+        { name: 'description', content: 'I am a full stack web developer located in New Jersey, USA.' },
+        { name: 'keywords', content: 'Full-Stack Web developer, Javascript, Software Engineer, available for job, Web development, portfolio' },
+      ]}
+      link={[
+      { rel: 'shortcut icon', type: 'image/png', href: `${favicon}` }
       ]}
     />
     <div className="layout">

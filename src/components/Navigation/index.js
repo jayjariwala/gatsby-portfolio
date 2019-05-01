@@ -63,6 +63,17 @@ const Navigation = () => (
             Work
           </Link>
         </li>
+        <li>
+          <Link
+            to="/logs/"
+            activeStyle={{
+              borderBottom: '2px solid purple',
+              color: 'black',
+            }}
+          >
+            Logs
+          </Link>
+        </li>
       </ul>
       <Follow username="_deadlocked" />
     </div>

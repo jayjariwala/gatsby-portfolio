@@ -79,6 +79,18 @@ class MobileNavigation extends React.Component {
                 Work
               </Link>
             </li>
+            <li>
+              <Link
+                to="/logs/"
+                activeStyle={{
+                  borderBottom: '2px solid purple',
+                  color: 'black',
+                }}
+                onClick={this.toggleNavbar}
+              >
+                Logs
+              </Link>
+            </li>
           </ul>
         </div>
       </nav>

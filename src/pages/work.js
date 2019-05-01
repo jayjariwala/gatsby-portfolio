@@ -8,10 +8,10 @@ const workPage = ({ data }) => {
   return (
     <div>
       <Helmet
-        title="Jay Jariwala | about"
+        title="Jay Jariwala | Work"
         meta={[
-          { name: 'description', content: 'Sample' },
-          { name: 'keywords', content: 'sample, something' },
+          { name: 'description', content: 'Jay works at SDI Global Services LLC as a Software Engineer' },
+          { name: 'keywords', content: 'SDI GS, FreeCodeCamp, Today\' business, Fairleigh Dickinson University, Jeeven Bharati Pravtrutti Vidhayala School' },
         ]}
       />
       <div className="content">
@@ -102,7 +102,7 @@ const workPage = ({ data }) => {
         </div>
         {/* <h2 className="content__heading">
               Education
-            </h2>   
+            </h2>
             <h2 className="content__heading">
               Certification
             </h2>

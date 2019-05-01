@@ -1,6 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: 'Jay Jariwala',
+    title: 'Jay Jariwala | Portfolio',
+    siteUrl: `https://www.jayjariwala.com`,
+    description: `I am a full stack web developer based in New Jersey, United States`
   },
   plugins: [
   {
