@@ -1,6 +1,6 @@
 ---
 title: Pomodoro clock
-thumbnail: https://image.ibb.co/kDZZz7/Screen_Shot_2018_04_19_at_10_43_10_PM.png
+thumbnail: https://i.ibb.co/9WHc4pm/Screen-Shot-2019-05-01-at-2-16-55-PM.png
 technology: Html, CSS3, Vanilla Javascript
 type: project
 github: https://github.com/jayjariwala/fcc-frontend/tree/master/pomodoro
