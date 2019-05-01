@@ -58,6 +58,9 @@ const IndexPage = () => (
           <a href="https://github.com/jayjariwala" target="__blank">
             <i className="fab fa-github" />
           </a>
+          <a href="https://www.instagram.com/jay.codes/" target="__blank">
+            <i className="fab fa-instagram" />
+          </a>
           <a href="https://www.linkedin.com/in/jay-jariwala/" target="__blank">
             <i className="fab fa-linkedin" />
           </a>
