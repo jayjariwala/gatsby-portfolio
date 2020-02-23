@@ -63,7 +63,7 @@ const Navigation = () => (
             Work
           </Link>
         </li>
-        <li>
+        {/* <li>
           <Link
             to="/logs/"
             activeStyle={{
@@ -73,7 +73,7 @@ const Navigation = () => (
           >
             Logs
           </Link>
-        </li>
+        </li> */}
       </ul>
       <Follow username="_deadlocked" />
     </div>

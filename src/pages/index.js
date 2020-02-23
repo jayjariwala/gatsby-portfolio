@@ -23,23 +23,14 @@ const IndexPage = () => (
           maintainable code. I have good command over JavaScript language and
           It's libraries. When not coding, I enjoy outdoors and photography.{' '}
           <br />
-          <br /> Check out some of my{' '}
+          <br /> If you are interested, check out some of my{' '}
           <Link
             to="/projects"
             className="inline-link"
           >
             <em>Projects</em>
           </Link>
-
           {' '}
-          and{' '}
-          <Link
-            to="#"
-            className="inline-link"
-          >
-            {' '}
-            <em>Photos</em>{' '}
-          </Link>
         </p>
         <a href="mailto:jay.jariwala@hotmail.com?Subject=Hello" target="_top">
           <button className="button button--white button--round">
