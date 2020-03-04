@@ -1,5 +1,5 @@
 ---
-title: Pandas and Bananas
+title: Javascript Veriable
 date: "2017-08-21"
 thumbnail: https://images.csmonitor.com/csm/2017/03/1030444_1_0305-panda_standard.jpg?alias=standard_900x600nc
 type: blog
