@@ -67,7 +67,7 @@ class MobileNavigation extends React.Component {
                 About
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link
                 to="/work/"
                 activeStyle={{
@@ -78,7 +78,7 @@ class MobileNavigation extends React.Component {
               >
                 Work
               </Link>
-            </li>
+            </li> */}
             {/* <li>
               <Link
                 to="/logs/"

@@ -52,7 +52,7 @@ const Navigation = () => (
             About
           </Link>
         </li>
-        <li>
+        {/* <li>
           <Link
             to="/work/"
             activeStyle={{
@@ -62,7 +62,7 @@ const Navigation = () => (
           >
             Work
           </Link>
-        </li>
+        </li> */}
         {/* <li>
           <Link
             to="/logs/"
