@@ -1,18 +1,18 @@
-import React from 'react'
-import Link from 'gatsby-link'
-import Helmet from 'react-helmet'
-import { Timeline } from 'react-twitter-widgets'
+import React from "react";
+import Link from "gatsby-link";
+import Helmet from "react-helmet";
+import { Timeline } from "react-twitter-widgets";
 
 const aboutmePage = ({ data }) => {
-  const post = data.allMarkdownRemark.edges[0].node
-  console.log(data)
+  const post = data.allMarkdownRemark.edges[0].node;
+  console.log(data);
   return (
     <div>
       <Helmet
         title="Jay Jariwala | about"
         meta={[
-          { name: 'description', content: 'Sample' },
-          { name: 'keywords', content: 'sample, something' },
+          { name: "description", content: "Sample" },
+          { name: "keywords", content: "sample, something" }
         ]}
       />
       <div className="content">
@@ -24,7 +24,7 @@ const aboutmePage = ({ data }) => {
               <td>{post.frontmatter.core_technologies}</td>
             </tr>
             <tr>
-              <th>Libraries</th>
+              <th>Libraries/ Frameworks</th>
               <td>{post.frontmatter.libraries}</td>
             </tr>
             <tr>
@@ -40,8 +40,12 @@ const aboutmePage = ({ data }) => {
               <td>{post.frontmatter.design}</td>
             </tr>
             <tr>
-              <th>Relevent</th>
-              <td>{post.frontmatter.relevent}</td>
+              <th>Tools</th>
+              <td>{post.frontmatter.tools}</td>
+            </tr>
+            <tr>
+              <th>Unit Testing</th>
+              <td>{post.frontmatter.testing}</td>
             </tr>
           </tbody>
         </table>
@@ -55,7 +59,7 @@ const aboutmePage = ({ data }) => {
         </div>
         <div
           dangerouslySetInnerHTML={{
-            __html: data.allMarkdownRemark.edges[0].node.html,
+            __html: data.allMarkdownRemark.edges[0].node.html
           }}
           className="line-height"
         />
@@ -63,19 +67,19 @@ const aboutmePage = ({ data }) => {
         <h2 className="content__heading">Social Media</h2>
         <Timeline
           dataSource={{
-            sourceType: 'profile',
-            screenName: '_deadlocked',
+            sourceType: "profile",
+            screenName: "_deadlocked"
           }}
           options={{
-            username: '_deadlocked',
-            height: '400',
+            username: "_deadlocked",
+            height: "400"
           }}
-          onLoad={() => console.log('Timeline is loaded!')}
+          onLoad={() => console.log("Timeline is loaded!")}
         />
       </div>
     </div>
-  )
-}
+  );
+};
 export const query = graphql`
   query AboutmeQuery {
     allMarkdownRemark(filter: { frontmatter: { type: { eq: "about" } } }) {
@@ -89,13 +93,14 @@ export const query = graphql`
             database
             server_hosting
             design
-            relevent
+            tools
+            testing
           }
           html
         }
       }
     }
   }
-`
+`;
 
-export default aboutmePage
+export default aboutmePage;

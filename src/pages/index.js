@@ -31,7 +31,7 @@ const IndexPage = () => (
             <em>Projects</em>
           </Link>{" "}
         </p>
-        <a href="mailto:jay.jariwala@hotmail.com?Subject=Hello" target="_top">
+        <a href="mailto:j.jariwala@outlook.com?Subject=Hello" target="_top">
           <button className="button button--white button--round">
             Get in Touch
           </button>
