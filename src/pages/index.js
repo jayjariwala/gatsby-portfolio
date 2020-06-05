@@ -1,8 +1,8 @@
-import React from 'react'
-import Link from 'gatsby-link'
-import profile_picture from '../assets/images/display-picture.png'
-import wavin_hand from '../assets/images/waving-hand.png'
-import resume from '../assets/rawfiles/jayjariwala_resume.pdf'
+import React from "react";
+import Link from "gatsby-link";
+import profile_picture from "../assets/images/display-picture.png";
+import wavin_hand from "../assets/images/waving-hand.png";
+import resume from "../assets/rawfiles/jayjariwala_resume.pdf";
 
 const IndexPage = () => (
   <div className="hero">
@@ -10,27 +10,26 @@ const IndexPage = () => (
     <section className="hero__content wrapper">
       <div className="hero__introduction ">
         <h1 className="hero__intro-heading">
-          {' '}
-          Hi!{' '}
+          {" "}
+          Hi!{" "}
           <div className="hand_waving">
             <img src={wavin_hand} height="35px" />
-          </div>{' '}
-          I'm Jay Jariwala{' '}
+          </div>{" "}
+          I'm Jay Jariwala{" "}
         </h1>
         <p className="hero__intro-subheading">Software Engineer</p>
         <p className="hero__intro-paragraph">
           I build Full-stack Web applications with emphasis of writing clean and
           maintainable code. I have good command over JavaScript language and
-          It's libraries. When not coding, I enjoy outdoors and photography.{' '}
+          Modern SPA Libraries/Frameworks like React and Angular. Proficient in
+          MEAN and MERN Application development.
           <br />
-          <br /> If you are interested, check out some of my{' '}
-          <Link
-            to="/projects"
-            className="inline-link"
-          >
+          <br />
+          When not coding, I enjoy outdoors and photography.If you are
+          interested, check out some of my{" "}
+          <Link to="/projects" className="inline-link">
             <em>Projects</em>
-          </Link>
-          {' '}
+          </Link>{" "}
         </p>
         <a href="mailto:jay.jariwala@hotmail.com?Subject=Hello" target="_top">
           <button className="button button--white button--round">
@@ -65,6 +64,6 @@ const IndexPage = () => (
       </div>
     </section>
   </div>
-)
+);
 
-export default IndexPage
+export default IndexPage;
