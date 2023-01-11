@@ -10,7 +10,7 @@
     "gatsby-plugin-react-helmet": "^2.0.5",
     "gatsby-remark-prismjs": "^1.2.17",
     "gatsby-source-filesystem": "^1.5.25",
-    "gatsby-transformer-remark": "^1.7.34",
+    "gatsby-transformer-remark": "^5.25.1",
     "react-disqus-thread": "^0.4.0",
     "react-fontawesome": "^1.6.1",
     "react-google-maps": "^9.4.5",
